@@ -1,2 +1,2 @@
 # Console
-Online market where users can buy and sell gaming accounts
+Online market place where users can buy and sell gaming accounts
