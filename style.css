@@ -5,7 +5,16 @@
 body{
     background: #212121;
 }
-
-navbar bg-body-tertiary{
-    display: 100vh;
-}
+.navbar {
+    background-color: #f8f9fa; /* Change the background color */
+    padding: 1rem; /* Add padding */
+  }
+  
+  .navbar a {
+    color: #000; /* Change the link color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .navbar a:hover {
+    color: #007bff; /* Change the link color on hover */
+  }
