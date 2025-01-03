@@ -1,0 +1,11 @@
+*{
+    font-family: fantasy;
+}
+
+body{
+    background: #212121;
+}
+
+navbar bg-body-tertiary{
+    display: 100vh;
+}
