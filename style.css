@@ -1,20 +1,66 @@
-*{
-    font-family: fantasy;
-}
+
 
 body{
-    background: #212121;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.navbar {
-    background-color: #f8f9fa; /* Change the background color */
-    padding: 1rem; /* Add padding */
-  }
-  
-  .navbar a {
-    color: #000; /* Change the link color */
-    text-decoration: none; /* Remove underline from links */
-  }
-  
-  .navbar a:hover {
-    color: #007bff; /* Change the link color on hover */
-  }
+nav{
+    background-color: #333;
+    overflow: hidden;
+}
+
+ nav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+ }
+
+ nav  .name{
+   color: white;
+   text-align: left;
+   float: left;
+ }
+
+ nav .dropdown{
+    float: right;
+    overflow: hidden;
+ }
+
+ nav .dropdown .dropbtn{
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 20px;
+    background-color: inherit;
+ }
+
+ nav .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #575757;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+ }
+
+ nav .dropdown-content a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+ }
+
+ nav .dropdown-content a:hover{
+    background-color: #777;
+ }
+
+ nav .dropdown:hover .dropdown-content{
+    display: block;
+ }
+
+ nav a:hover{
+    background-color: #575757;
+ }
